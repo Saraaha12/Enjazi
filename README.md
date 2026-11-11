@@ -7,7 +7,7 @@
 
 *Write naturally. Get organized. Know what matters.*
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/enjazi-ai/blob/main/Enjazi_AI.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saraaha12/Enjazi/blob/main/Enjazi_AI.ipynb)
 ![Model](https://img.shields.io/badge/Model-Qwen2.5-6366F1)
 ![UI](https://img.shields.io/badge/UI-Gradio-F97316)
 ![Languages](https://img.shields.io/badge/العربية-English-8B5CF6)
