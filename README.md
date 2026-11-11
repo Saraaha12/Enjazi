@@ -1,5 +1,7 @@
 <div align="center">
 
+<img width="250" height="250" alt="5b9a6ec4-dcb0-4bdb-a15d-85ad847bf249-removebg-preview" src="https://github.com/user-attachments/assets/f281a6e9-d896-467e-a017-bb05d2fb5bcb" />
+
 # ✅ Enjazi | إنجــازي
 **مساعدك الذكي لتنظيم مهامك وإنجاز يومك**
 
@@ -13,6 +15,9 @@
 </div>
 
 ---
+
+<img width="1259" height="616" alt="image" src="https://github.com/user-attachments/assets/14e17faa-03ed-4c92-889d-6f587f357d5a" />
+
 
 ## The idea
 
@@ -63,34 +68,10 @@ flowchart LR
 - **Never breaks:** if Qwen returns something unreadable, the note is saved as one plain task and you are told.
 - **No database:** everything lives in the browser session. Refreshing the page starts clean.
 
-## 🧪 Test scenarios (also good for a demo video)
-
-Dates below assume Qwen reads the note correctly; wording of reasons may vary slightly.
-
-| # | Page | Do this | Expect |
-|---|---|---|---|
-| 1 | Add tasks | Click the first example (*"عندي اختبار الأسبوع الجاي ولازم أخلص المشروع بكرة"*) → **Organize** | 2 task cards: **اختبار** (due in 7 days, Study, importance 5) and **أخلص المشروع** (due tomorrow, Work) |
-| 2 | Add tasks | Example 2 (*"Remind me to submit the report tomorrow at 3pm"*) | 1 card, due tomorrow, time **15:00**, category Work |
-| 3 | Add tasks | Example 3 (*"buy groceries today, call the dentist on Thursday, maybe read a book"*) | 3 cards. "Read a book" has no date and low importance |
-| 4 | Add tasks | Type your own messy note, e.g. *"gym tonight and email the client Sunday"* | Tasks split correctly, wording kept as you wrote it |
-| 5 | Priorities | Open the page | Top card **"Do this first"** with a reason; the rest ranked below |
-| 6 | Priorities | Pick "Read a book", set **Critical**, press **Set priority** | It jumps to the top, reason says *"you chose this priority"* |
-| 7 | Check | Tick two tasks → **Done** | They disappear from the list, appear under **Finished**, a 🎉 message shows |
-| 8 | Check | Tick a task → **Move to tomorrow** | Its date becomes tomorrow; priorities update |
-| 9 | Assistant | *"What should I focus on today?"* | Names the first task and the reason, then the next two |
-| 10 | Assistant | *"I have two free hours, what fits?"* | A list of tasks whose estimated minutes fit within 120 |
-| 11 | Assistant | *"I finished the report"* | Report is marked done |
-| 12 | Assistant | *"Move the project to day after tomorrow"* | Project date moves two days ahead |
-| 13 | Assistant | *"Remind me to call Sara tomorrow at 4"* | A new task is added |
-| 14 | Assistant | *"Delete the groceries"* | Task removed |
-| 15 | Dashboard | Open after scenarios 1-14 | KPIs, completion %, 7-day workload bars, category donut, priority bars |
-| 16 | Language | Switch to **العربية** | Every label, card, reason, chart and reply turns Arabic (right-to-left). Try *"وش أبدأ فيه اليوم؟"* and *"عندي ساعتين فاضية"* |
-| 17 | Edge | Press **Organize** with an empty box, or press **Done** with nothing ticked | A friendly warning, nothing breaks |
-
 ## Repository layout
 
 ```
-enjazi-ai/
+Enjazi/
 ├── Enjazi_AI.ipynb     # the whole app (run it in Colab)
 ├── requirements.txt    # for running locally with a GPU
 └── README.md
@@ -109,13 +90,7 @@ Not built yet in this prototype, planned for the full product:
 - 💾 **Accounts without email**: a private key to keep tasks across sessions and devices, with a real database
 - 🔎 **Cross-language search**: search *project* and find *مشروع*
 - 🎙️ **Voice notes** in Arabic and English
-- 👥 **Shared lists** for family and teams
-- 🌐 **Public web version** (not tied to Colab sessions)
-- ✅ **Evaluation**: a test set of real Arabic notes to measure and improve Qwen's accuracy (and try larger or fine-tuned models)
-
-## 📄 License
-
-MIT.
+- 🌐 **Public web version** (Deployed and Published to not be tied to Colab sessions)
 
 ---
 
