@@ -1,6 +1,7 @@
 <div align="center">
 
-<img width="250" height="250" alt="5b9a6ec4-dcb0-4bdb-a15d-85ad847bf249-removebg-preview" src="https://github.com/user-attachments/assets/f281a6e9-d896-467e-a017-bb05d2fb5bcb" />
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/d6c9888f-7372-426c-aa75-b798a317632f" />
+
 
 # ✅ Enjazi | إنجــازي
 **مساعدك الذكي لتنظيم مهامك وإنجاز يومك**
