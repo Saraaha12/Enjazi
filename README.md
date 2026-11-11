@@ -36,7 +36,7 @@ Enjazi reads it, turns it into clear tasks, and tells you what deserves your att
 3. Run the cells from top to bottom (the first run downloads the model, a few minutes).
 4. The last cell prints a **public link** (`https://xxxx.gradio.live`). Open it.
 
-The app uses **one model only: Qwen2.5-3B-Instruct** (free, open). No API key and no database needed. On a machine without a GPU it falls back to the 1.5B model (slower, less accurate). You can switch to `Qwen/Qwen2.5-7B-Instruct` on a bigger GPU.
+The app uses **model: Qwen2.5-3B-Instruct** (open-source). No API key and no database needed. 
 
 ## The five pages
 
@@ -45,7 +45,7 @@ The app uses **one model only: Qwen2.5-3B-Instruct** (free, open). No API key an
 | ✍️ **Add tasks** | Write a free-form note in Arabic, English, or both. Qwen splits it into separate tasks and extracts the **date, time, category, importance and estimated duration**. One-tap examples are provided. |
 | 🎯 **Priorities** | A big card answers *"What should I do first?"* with a plain reason (e.g. *"Because it is due tomorrow and it matters"*). All other tasks follow, ranked **Critical / High / Medium / Low**. You can override any priority and the app respects your choice. |
 | ✅ **Check** | Tick one or more tasks, then mark them **Done**, **move them to tomorrow**, or **delete** them. Finished tasks are listed underneath. |
-| 💬 **Assistant** | Chat in your own words: *"What should I focus on today?"*, *"I have two free hours"*, *"move the project to day after tomorrow"*, *"I finished the report"*, *"Remind me to call Sara tomorrow at 4"*. Qwen decides the action and the app performs it. |
+| 💬 **Assistant** | Chat in your own words: *"What should I focus on today?"*, *"I have two free hours"*, *"move the project to day after tomorrow"*, *"I finished the report"*, *"Remind me to call Sarah tomorrow at 4"*. Qwen decides the action and the app performs it. |
 | 📊 **Dashboard** | Totals, completion rate and progress bar, **workload for the next 7 days**, tasks **by category**, and open tasks **by priority**. It updates the moment you add or finish a task. |
 
 **Language:** use the switch under the banner (English / العربية). The whole interface changes to **one language at a time**, with right-to-left text for Arabic. Your notes are never translated.
