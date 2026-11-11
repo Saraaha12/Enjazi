@@ -1,6 +1,7 @@
 <div align="center">
 
-<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/d6c9888f-7372-426c-aa75-b798a317632f" />
+<img width="243" height="243" alt="image-removebg-preview (58)" src="https://github.com/user-attachments/assets/5a48d760-19c2-4d5b-91f2-e19fc6a7e4df" />
+
 
 
 # ✅ Enjazi | إنجــازي
